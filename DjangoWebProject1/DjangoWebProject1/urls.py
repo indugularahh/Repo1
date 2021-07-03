@@ -16,9 +16,9 @@ import app.views
 
 urlpatterns = [
     # Examples:
-    url(r'^$', app.views.home, name='home'),
-    url(r'^contact$', app.views.contact, name='contact'),
-    url(r'^about$', app.views.about, name='about'),
+    url(r'^$', app.views.home, name='home2'),
+    url(r'^contact$', app.views.contact, name='contact2'),
+    url(r'^about$', app.views.about, name='about2'),
     url(r'^login/$',
         django.contrib.auth.views.login,
         {
